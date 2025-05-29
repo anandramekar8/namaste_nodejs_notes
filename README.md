@@ -45,7 +45,9 @@ npm -v
 - Run with: node app.js
 - Explore built-in global:
 console.log(global);        // superpowers like setTimeout, setInterval
+
 console.log(this);          // empty object {}
+
 console.log(global === globalThis); // true
 
 # 4. module.exports & require() 📦
